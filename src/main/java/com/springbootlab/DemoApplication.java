@@ -31,7 +31,7 @@ public class DemoApplication {
 			clientRepository.findAll().stream().forEach(client -> {
 				System.out.println("Id: " + client.getId() + "Name: " + client.getName() + " Last Name: " + client.getLastName());
 			});
-			log.info("");
+			log.info(" ");
 
 //			// fetch an individual client by ID
 //			Client client = clientRepository.getOne(1L);

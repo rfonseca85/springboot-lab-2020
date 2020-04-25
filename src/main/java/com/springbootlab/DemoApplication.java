@@ -26,7 +26,7 @@ public class DemoApplication {
 			clientRepository.save(new Client("Amora", "Lopes Fonseca"));
 
 			// fetch all customers
-			log.info("Clients found with findAll():");
+			log.info("Clients found with findAll(): ");
 			log.info("-------------------------------");
 			clientRepository.findAll().stream().forEach(client -> {
 				System.out.println("Id: " + client.getId() + "Name: " + client.getName() + " Last Name: " + client.getLastName());

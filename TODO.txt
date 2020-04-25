@@ -1,0 +1,14 @@
+//#### Add JPA
+//TODO Spring actuator
+//TODO Spring Configuration
+//TODO Yaml file studies
+//TODO JUnit Mockito
+//TODO Spring validation
+//TODO Spring Security (Microservices)
+//#### error handling
+
+https://www.javaguides.net/2019/03/spring-boot-best-practices.html
+https://www.javaguides.net/2018/09/spring-boot-2-exception-handling-for-rest-apis.html
+
+All Annotations
+https://www.baeldung.com/spring-boot-annotations

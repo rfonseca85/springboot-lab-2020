@@ -1,11 +1,15 @@
-//#### Add JPA
-//TODO Spring actuator
+//TODO Spring validation
 //TODO Spring Configuration
 //TODO Yaml file studies
 //TODO JUnit Mockito
-//TODO Spring validation
 //TODO Spring Security (Microservices)
+//#### Add JPA
+//#### Spring actuator
 //#### error handling
+//#### Solace queue
+
+//TODO Creating annotations
+//TODO Lambda + streams
 
 https://www.javaguides.net/2019/03/spring-boot-best-practices.html
 https://www.javaguides.net/2018/09/spring-boot-2-exception-handling-for-rest-apis.html

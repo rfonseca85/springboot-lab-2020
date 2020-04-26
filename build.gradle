@@ -31,6 +31,9 @@ dependencies {
 
 	runtimeOnly 'com.h2database:h2'
 
+	//Solace
+	compile("com.solacesystems:sol-jcsmp:10.2.0")
+
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

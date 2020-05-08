@@ -18,12 +18,8 @@ public class SolaceController {
     SolaceService solaceService;
 
     @PostMapping("/sendMessage/{topic}/{message}")
-    public ResponseEntity<Boolean> sendSolaceMessage (@PathVariable String topic, @PathVariable String message) throws ResourceNotFoundException {
-        try{
-            solaceService.sendMessage(topic, message);
-        }catch (Exception e){
-            ResponseEntity.badRequest();
-        }
+    public ResponseEntity<Boolean> sendSolaceMessage (@PathVariable String topic, @PathVariable String message) throws Exception {
+        solaceService.sendMessage(topic, message);
         return ResponseEntity.ok(Boolean.TRUE);
     }
 

@@ -2,7 +2,6 @@ package com.springbootlab.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Objects;
 
 @Entity
 @Table(name = "client")
